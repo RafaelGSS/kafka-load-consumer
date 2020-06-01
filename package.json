@@ -1,8 +1,9 @@
 {
   "name": "kafka-load-consumer",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "NodeJs tool to publish messages on kafka",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
@@ -11,9 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/RafaelGSS/kafka-load-consumer.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["benchmark", "kafka"],
+  "author": "RafaelGSS",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RafaelGSS/kafka-load-consumer/issues"
   },
