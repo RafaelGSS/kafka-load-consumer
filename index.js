@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { execute } = require('./lib/cli')
+import { execute } from './lib/cli'
 
 function onFatalError (error) {
   console.error(error)
@@ -14,4 +14,4 @@ async function main () {
   await execute(process.argv || {})
 }
 
-main().catch(() => process.exit())
+main().catch(onFatalError)
