@@ -12,7 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/RafaelGSS/kafka-load-consumer.git"
   },
-  "keywords": ["benchmark", "kafka"],
+  "keywords": [
+    "benchmark",
+    "kafka"
+  ],
   "author": "RafaelGSS",
   "license": "MIT",
   "bugs": {

@@ -1,4 +1,4 @@
-{
+export default {
   "tests": [
     {
       "name": "Load event success on item",

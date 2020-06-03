@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { execute } from './lib/cli'
+import { execute } from './lib/cli.js'
 
 function onFatalError (error) {
   console.error(error)
