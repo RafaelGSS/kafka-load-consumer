@@ -9,7 +9,7 @@ services:
       - ./zookeeper.env
 
   kafka:
-    image: kafka-kafkacat:1.0
+    image: confluentinc/cp-kafkacat
     ports:
       - 9092:9092
     env_file:
