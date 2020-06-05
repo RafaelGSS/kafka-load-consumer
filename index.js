@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { execute } from './lib/cli.js'
+const { execute } = require('./lib/cli')
 
 function onFatalError (error) {
   console.error(error)
@@ -12,7 +12,7 @@ async function main () {
   process.on('unhandledRejection', onFatalError)
 
   if (process.argv.includes("--init")) {
-    const config = await import('./lib/config-initializer.js')
+    const config = require('./lib/config-initializer')
     await config.initializeConfig()
     return;
   }
