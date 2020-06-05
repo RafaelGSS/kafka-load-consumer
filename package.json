@@ -4,6 +4,9 @@
   "description": "NodeJs tool to publish messages on kafka",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "kafka-load-consumer": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
