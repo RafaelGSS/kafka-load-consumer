@@ -1,6 +1,6 @@
 {
   "name": "kafka-load-consumer",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "NodeJs tool to publish messages on kafka",
   "main": "index.js",
   "type": "module",
